@@ -1,0 +1,11 @@
+givenstring="Lorem ipsum dolor! diam amet, consetetur Lorem magna. sed diam nonumy eirmod tempor. diam et labore? et diam magna. et diam amet."
+class TextAnalzer(object):
+    
+    def __init__ (self, text):
+        # remove punctuation
+        formattedText = text.replace('.','').replace('!','').replace('?','').replace(',','')
+        
+        # make text lowercase
+        formattedText = formattedText.lower()
+        
+        self.fmtText = formattedText
