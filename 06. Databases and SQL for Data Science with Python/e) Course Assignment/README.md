@@ -1,61 +1,97 @@
-# 🏙️ Chicago Census, Crime, and School Data Analysis using SQL
+# Chicago Census, Crime, and School Data Analysis using SQL
 
-## 📚 Context & Purpose
 
-As part of the rigorous IBM Data Science Professional Certificate, this analytical odyssey immerses one in the complex civic tapestry of the City of Chicago. Assuming the mantle of a data analyst for a benevolent non-profit organisation, I endeavoured to distil actionable insights from the confluence of **census**, **crime**, and **educational performance data**. The overarching mission? To illuminate the socio-economic factors that imperil or promote scholastic success, safety, and well-being amongst Chicago's youth.
+## Context
 
-This project encapsulates the judicious application of **Structured Query Language (SQL)** to navigate and interrogate sprawling datasets, uncovering truths that numbers whisper and policies often overlook.
+Using a a real world dataset provided by the Chicago Data Portal, assume the role of a data analyst hired by a non-profit organization that strives to improve educational outcomes for children and youth in the City of Chicago. 
+The job is to analyze the census, crime, and school data for a given neighborhood or district, identifying causes that impact the enrollment, safety, health, and environment ratings of schools.
 
----
+Using SQL queries, anwer a number of questions about the dataset.
 
-## 🧭 Methodology
 
-1. **Acquisition** of authentic datasets from the [Chicago Data Portal](https://data.cityofchicago.org/).
-2. **Ingestion** into a robust relational database management system (RDBMS).
-3. **Interrogation** via meticulously crafted SQL queries.
-4. **Documentation** through visual evidence (screenshots) and a well-annotated Jupyter Notebook.
+In this assignment:
+- Download the datasets provided
+- Load them into a database
+- Write and execute SQL queries to answer the problems provided
+- Upload screenshots showing the correct SQL queries and results for peer review. 
 
----
+## Datasets
 
-## 🗃️ Datasets Utilised
+This assignment involves 3 datasets for the city of Chicago obtained from the Chicago Data Portal:
 
-Three distinct yet interrelated datasets from the municipal archives of Chicago:
+1. [Chicago Socioeconomic Indicators](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/blob/main/06.%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/05.%20Course%20Assignment/ChicagoCensusData.csv)
+    - This dataset contains a selection of six socioeconomic indicators of public health significance and a hardship index, by Chicago community area, for the years 2008 – 2012.
 
-### 1. Socioeconomic Indicators
-A revealing compendium of six pivotal public health metrics and a hardship index, organised by community area (2008–2012).
+2. [Chicago Public Schools](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/blob/main/06.%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/05.%20Course%20Assignment/ChicagoPublicSchools.csv)
+    - This dataset shows all school level performance data used to create CPS School Report Cards for the 2011-2012 school year.
 
-### 2. Chicago Public Schools (CPS) Performance
-A granular breakdown of school-level data underpinning CPS Report Cards for the academic year 2011–2012.
+3. [Chicago Crime Data](https://github.com/DanielBarnes18/IBM-Data-Science-Professional-Certificate/blob/main/06.%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/05.%20Course%20Assignment/ChicagoCrimeData.csv)
+    - This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
 
-### 3. Chicago Crime Data
-A sprawling register of reported criminal infractions (2001 to present), save for the most recent septenary of days.
 
----
+## Problems
 
-## 💡 Analytical Objectives
+The full notebook can be found [here]. It follows the assignment instructions outlined above, and answers the following problems. Screenshots to the problems are also shown below. 
 
-The entirety of the SQL analysis — accompanied by screenshots and visual corroborations — is encapsulated in the notebook [accessible here](#) _(link to be added)_.
+**Problem 1**: Find the total number of crimes recorded in the CRIME table.
 
-The queries address the following multifaceted inquiries:
+<p align="center">
+  <img src="Images/Problem1.jpg" width="600">
+</p>
 
-1. **Quantification** of crimes: What is the totality of offences documented in the `CRIME` table?
-2. **Socioeconomic plight**: Which community areas subsist with a per capita income below $11,000?
-3. **Juvenile justice**: Which case numbers pertain to crimes involving minors?
-4. **Child endangerment**: Which kidnapping incidents specifically reference children?
-5. **Academic adversity**: What crimes have transpired within the sanctified precincts of schools?
-6. **Safety scrutiny**: What is the average safety score across the educational spectrum?
-7. **Poverty prevalence**: Which five community areas exhibit the highest proportion of households beneath the poverty threshold?
-8. **Criminological epicentre**: Which community area (by numeric designation) endures the greatest criminological burden?
-9. **Hardship hegemony**: Via sub-query, identify the community area reigning with the highest hardship index.
-10. **Crime capital**: Through nested logic, ascertain the community area most besieged by criminal occurrences.
+**Problem 2**: List community areas with per capita income less than 11000.
 
----
+<p align="center">
+  <img src="Images/Problem2.jpg" width="600">
+</p>
 
-## 🏁 Conclusion
+**Problem 3**: List all case numbers for crimes involving minors?
 
-This analytical foray into the socio-educational matrix of Chicago, mediated through SQL, unveils patterns that are not merely statistical artefacts, but clarion calls for civic reform and community upliftment. The intersection of data science and public policy holds the potential to transmute insight into impact — and this project is a modest step in that noble direction.
+<p align="center">
+  <img src="Images/Problem3.jpg" width="600">
+</p>
 
----
+**Problem 4**: List all kidnapping crimes involving a child?(children are not considered minors for the purposes of crime analysis)
 
-> “Statistics are like lampposts — best used for illumination, not mere support.”  
-> — Andrew Lang
+<p align="center">
+  <img src="Images/Problem4.jpg" width="600">
+</p>
+
+**Problem 5**: What kind of crimes were recorded at schools?
+
+<p align="center">
+  <img src="Images/Problem5.jpg" width="600">
+</p>
+
+**Problem 6**: List the average safety score for all types of schools.
+
+<p align="center">
+  <img src="Images/Problem6.jpg" width="600">
+</p>
+
+**Problem 7**: List 5 community areas with highest % of households below poverty line.
+
+<p align="center">
+  <img src="Images/Problem7.jpg" width="600">
+</p>
+
+**Problem 8**: Which community area(number) is most crime prone?
+
+<p align="center">
+  <img src="Images/Problem8.jpg" width="600">
+</p>
+
+**Problem 9**: Use a sub-query to find the name of the community area with highest hardship index.
+
+<p align="center">
+  <img src="Images/Problem9.jpg" width="600">
+</p>
+
+**Problem 10**: Use a sub-query to determine the Community Area Name with most number of crimes.
+
+<p align="center">
+  <img src="Images/Problem10.jpg" width="600">
+</p>
+
+
+
