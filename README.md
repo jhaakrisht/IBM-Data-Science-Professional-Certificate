@@ -2,7 +2,7 @@
 
 ## 📄 About
 
-The **IBM Data Science Professional Certificate** is an intensive, ten-course specialization that imparts a comprehensive foundation in the multidisciplinary field of data science. This odyssey traverses the realms of open-source tools, Python programming, SQL, data analysis, visualization, machine learning, and the scientific methodology underpinning data-driven decision-making.
+The **IBM Data Science Professional Certificate** is an intensive, twelve-course specialization that imparts a comprehensive foundation in the multidisciplinary field of data science. This odyssey traverses the realms of open-source tools, Python programming, SQL, data analysis, visualization, machine learning, and the scientific methodology underpinning data-driven decision-making.
 
 This repository is a curated archive of:
 
