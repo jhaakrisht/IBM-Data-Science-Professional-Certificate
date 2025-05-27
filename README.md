@@ -78,11 +78,30 @@ These capstones were not mere academic exercises, but applied explorations that 
 
 ## 🏆 Certificates of Completion
 
-For the intellectually curious or credential-concerned, verifiable certificates are included for each course. Navigate to the `/certificates` folder to view or validate the credentials via their respective links.
+At the culmination of this intellectually rigorous journey, I was awarded the **IBM Data Science Professional Certificate**, a testament to the successful mastery of twelve interwoven courses curated and endorsed by IBM’s leading experts.
+
+📜 **IBM Data Science Professional Certificate:**  
+[View Credential](<https://coursera.org/verify/professional-cert/4CUO1PZN5J8W>)
+
+The following are individual credentials for each course completed as part of this specialization:
+
+| #  | Course Title | Certificate |
+|----|--------------|-------------|
+| 01 | What is Data Science? | [View Certificate](<https://coursera.org/verify/GYMSNJZUJGMY>) |
+| 02 | Tools for Data Science | [View Certificate](<https://coursera.org/verify/85NSSCK75TU4>) |
+| 03 | Data Science Methodology | [View Certificate](<https://coursera.org/verify/99U9SC8QL877>) |
+| 04 | Python for Data Science, AI & Development | [View Certificate](<https://coursera.org/verify/S2F11PVYEGD5>) |
+| 05 | Python Project for Data Science | [View Certificate](<https://coursera.org/verify/1SI9EF6QLVAY>) |
+| 06 | Databases and SQL for Data Science with Python | [View Certificate](<https://coursera.org/verify/Z5CV853IVSBD>) |
+| 07 | Data Analysis with Python | [View Certificate](<https://coursera.org/verify/ZO4L27Q2UDPV>) |
+| 08 | Data Visualization with Python | [View Certificate](<https://coursera.org/verify/Z3H5MKOQXGW2>) |
+| 09 | Machine Learning with Python | [View Certificate](<https://coursera.org/verify/QKONUZ7480Y5>) |
+| 10 | Applied Data Science Capstone | [View Certificate](<https://coursera.org/verify/UE1M7SDNQ698>) |
+| 11 | Generative AI in Data Science | [View Certificate](<https://coursera.org/verify/9LALUSNZZAIO>) |
+| 12 | Data Scientist Career Guide | [View Certificate](<https://coursera.org/verify/17ELK45OJH71>) |
 
 ---
 
 > _“The goal is to turn data into information, and information into insight.”_ — Carly Fiorina
 
-Thank you for perusing this repository. Feedback and collaboration are most welcome!
-
+Your interest in this repository is sincerely appreciated. If you have insights, inquiries, or collaborative ideas, they are most welcome.
